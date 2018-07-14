@@ -190,7 +190,9 @@ acceptable_attributes = ["abbr", "accept", "accept-charset", "accesskey",
     "summary", "suppress", "tabindex", "target",
     "template", "title", "toppadding", "type", "unselectable", "usemap",
     "urn", "valign", "value", "variable", "volume", "vspace", "vrml",
-    "width", "wrap", "xml:lang"]
+    "width", "wrap", "xml:lang"
+    ,"data-line-number" --added to allow skylighting line numbering
+    ]
 
 acceptable_protocols :: [String]
 acceptable_protocols = [ "ed2k", "ftp", "http", "https", "irc",
